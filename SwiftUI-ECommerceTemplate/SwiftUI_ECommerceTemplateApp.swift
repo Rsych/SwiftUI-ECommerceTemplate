@@ -9,16 +9,23 @@ import SwiftUI
 
 @main
 struct SwiftUI_ECommerceTemplateApp: App {
-    
+    @StateObject var dataController: DataController
     // AppLock
     @StateObject var appLockVM = AppLockViewModel()
     @Environment(\.scenePhase) var scenePhase
     @State var blurRadius: CGFloat = 0
     
+    init() {
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor : UIColor(Color.theme.accent)]
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor : UIColor(Color.theme.accent)]
+        let dataController = DataController()
+        _dataController = StateObject(wrappedValue: dataController)
+    }
+    
     var body: some Scene {
         WindowGroup {
-            NavigationView {
             ContentView()
+                .environmentObject(dataController)
                 .environmentObject(appLockVM)
                 .blur(radius: blurRadius)
                 .onChange(of: scenePhase, perform: { value in
@@ -33,7 +40,6 @@ struct SwiftUI_ECommerceTemplateApp: App {
                         print("unknown")
                     }
                 })
-            }
         }
     }
 }

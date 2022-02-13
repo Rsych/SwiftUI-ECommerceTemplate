@@ -62,11 +62,11 @@ struct Tab {
 }
 
 let tabs = [
-    Tab(image: "line.3.horizontal", label: "More"),
-    Tab(image: "magnifyingglass", label: "Search"),
     Tab(image: "house.fill", label: "Home"),
+    Tab(image: "magnifyingglass", label: "Search"),
+    Tab(image: "cart", label: "Cart"),
     Tab(image: "person", label: "MyPage"),
-    Tab(image: "cart", label: "Cart")
+    Tab(image: "line.3.horizontal", label: "More")
 ]
 
 struct RoundedCorner: Shape {

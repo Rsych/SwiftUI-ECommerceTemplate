@@ -14,6 +14,25 @@
 		7102086F27B94A5A00195BC0 /* AppLockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102086D27B94A5A00195BC0 /* AppLockViewModel.swift */; };
 		7102087027B94A5A00195BC0 /* LockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102086E27B94A5A00195BC0 /* LockedView.swift */; };
 		7102087227B94C4300195BC0 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102087127B94C4300195BC0 /* TabBarView.swift */; };
+		7102087427B9546400195BC0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102087327B9546400195BC0 /* HomeView.swift */; };
+		7102087627B9547A00195BC0 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102087527B9547A00195BC0 /* SearchView.swift */; };
+		7102087827B9548C00195BC0 /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102087727B9548C00195BC0 /* MyPageView.swift */; };
+		7102087A27B9552800195BC0 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102087927B9552800195BC0 /* CartView.swift */; };
+		7102087C27B9554B00195BC0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102087B27B9554B00195BC0 /* Constants.swift */; };
+		7102087E27B955F400195BC0 /* Settings-Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102087D27B955F400195BC0 /* Settings-Controller.swift */; };
+		7102088427B9563600195BC0 /* SecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102087F27B9563600195BC0 /* SecurityView.swift */; };
+		7102088527B9563600195BC0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102088027B9563600195BC0 /* SettingsView.swift */; };
+		7102088627B9563600195BC0 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102088127B9563600195BC0 /* MailView.swift */; };
+		7102088727B9563600195BC0 /* CustomizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102088227B9563600195BC0 /* CustomizationView.swift */; };
+		7102088827B9563600195BC0 /* SystemThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102088327B9563600195BC0 /* SystemThemeManager.swift */; };
+		7102088B27B9565300195BC0 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 7102088A27B9565300195BC0 /* BetterSafariView */; };
+		7102089427B9566C00195BC0 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102088D27B9566C00195BC0 /* Date.swift */; };
+		7102089527B9566C00195BC0 /* NavigationBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102088E27B9566C00195BC0 /* NavigationBackButton.swift */; };
+		7102089627B9566C00195BC0 /* Bundle-Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102088F27B9566C00195BC0 /* Bundle-Version.swift */; };
+		7102089727B9566C00195BC0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102089027B9566C00195BC0 /* String.swift */; };
+		7102089827B9566C00195BC0 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102089127B9566C00195BC0 /* Double.swift */; };
+		7102089927B9566C00195BC0 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102089227B9566C00195BC0 /* UIApplication.swift */; };
+		7102089A27B9566C00195BC0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102089327B9566C00195BC0 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +44,24 @@
 		7102086D27B94A5A00195BC0 /* AppLockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLockViewModel.swift; sourceTree = "<group>"; };
 		7102086E27B94A5A00195BC0 /* LockedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockedView.swift; sourceTree = "<group>"; };
 		7102087127B94C4300195BC0 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		7102087327B9546400195BC0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7102087527B9547A00195BC0 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		7102087727B9548C00195BC0 /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
+		7102087927B9552800195BC0 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		7102087B27B9554B00195BC0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7102087D27B955F400195BC0 /* Settings-Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Settings-Controller.swift"; sourceTree = "<group>"; };
+		7102087F27B9563600195BC0 /* SecurityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityView.swift; sourceTree = "<group>"; };
+		7102088027B9563600195BC0 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7102088127B9563600195BC0 /* MailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		7102088227B9563600195BC0 /* CustomizationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizationView.swift; sourceTree = "<group>"; };
+		7102088327B9563600195BC0 /* SystemThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemThemeManager.swift; sourceTree = "<group>"; };
+		7102088D27B9566C00195BC0 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		7102088E27B9566C00195BC0 /* NavigationBackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBackButton.swift; sourceTree = "<group>"; };
+		7102088F27B9566C00195BC0 /* Bundle-Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Version.swift"; sourceTree = "<group>"; };
+		7102089027B9566C00195BC0 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		7102089127B9566C00195BC0 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		7102089227B9566C00195BC0 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		7102089327B9566C00195BC0 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7102088B27B9565300195BC0 /* BetterSafariView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,9 +95,21 @@
 		7102085D27B9496F00195BC0 /* SwiftUI-ECommerceTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				7102087B27B9554B00195BC0 /* Constants.swift */,
 				7102085E27B9496F00195BC0 /* SwiftUI_ECommerceTemplateApp.swift */,
 				7102086027B9496F00195BC0 /* ContentView.swift */,
+				7102087327B9546400195BC0 /* HomeView.swift */,
+				7102087527B9547A00195BC0 /* SearchView.swift */,
+				7102087727B9548C00195BC0 /* MyPageView.swift */,
 				7102087127B94C4300195BC0 /* TabBarView.swift */,
+				7102087927B9552800195BC0 /* CartView.swift */,
+				7102087D27B955F400195BC0 /* Settings-Controller.swift */,
+				7102088227B9563600195BC0 /* CustomizationView.swift */,
+				7102088127B9563600195BC0 /* MailView.swift */,
+				7102087F27B9563600195BC0 /* SecurityView.swift */,
+				7102088027B9563600195BC0 /* SettingsView.swift */,
+				7102088327B9563600195BC0 /* SystemThemeManager.swift */,
+				7102088C27B9566C00195BC0 /* Extensions */,
 				7102086C27B94A5A00195BC0 /* AppLock */,
 				7102086227B9497000195BC0 /* Assets.xcassets */,
 				7102086427B9497000195BC0 /* Preview Content */,
@@ -84,6 +134,20 @@
 			path = AppLock;
 			sourceTree = "<group>";
 		};
+		7102088C27B9566C00195BC0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7102088D27B9566C00195BC0 /* Date.swift */,
+				7102088E27B9566C00195BC0 /* NavigationBackButton.swift */,
+				7102088F27B9566C00195BC0 /* Bundle-Version.swift */,
+				7102089027B9566C00195BC0 /* String.swift */,
+				7102089127B9566C00195BC0 /* Double.swift */,
+				7102089227B9566C00195BC0 /* UIApplication.swift */,
+				7102089327B9566C00195BC0 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,6 +164,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI-ECommerceTemplate";
+			packageProductDependencies = (
+				7102088A27B9565300195BC0 /* BetterSafariView */,
+			);
 			productName = "SwiftUI-ECommerceTemplate";
 			productReference = 7102085B27B9496F00195BC0 /* SwiftUI-ECommerceTemplate.app */;
 			productType = "com.apple.product-type.application";
@@ -128,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 7102085227B9496F00195BC0;
+			packageReferences = (
+				7102088927B9565300195BC0 /* XCRemoteSwiftPackageReference "BetterSafariView" */,
+			);
 			productRefGroup = 7102085C27B9496F00195BC0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -154,11 +224,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7102087E27B955F400195BC0 /* Settings-Controller.swift in Sources */,
+				7102087A27B9552800195BC0 /* CartView.swift in Sources */,
+				7102089A27B9566C00195BC0 /* Color.swift in Sources */,
+				7102089727B9566C00195BC0 /* String.swift in Sources */,
+				7102088727B9563600195BC0 /* CustomizationView.swift in Sources */,
 				7102087027B94A5A00195BC0 /* LockedView.swift in Sources */,
+				7102089527B9566C00195BC0 /* NavigationBackButton.swift in Sources */,
+				7102089627B9566C00195BC0 /* Bundle-Version.swift in Sources */,
+				7102087827B9548C00195BC0 /* MyPageView.swift in Sources */,
 				7102086127B9496F00195BC0 /* ContentView.swift in Sources */,
+				7102089427B9566C00195BC0 /* Date.swift in Sources */,
+				7102088827B9563600195BC0 /* SystemThemeManager.swift in Sources */,
+				7102088627B9563600195BC0 /* MailView.swift in Sources */,
 				7102086F27B94A5A00195BC0 /* AppLockViewModel.swift in Sources */,
+				7102089827B9566C00195BC0 /* Double.swift in Sources */,
+				7102089927B9566C00195BC0 /* UIApplication.swift in Sources */,
+				7102087C27B9554B00195BC0 /* Constants.swift in Sources */,
+				7102087627B9547A00195BC0 /* SearchView.swift in Sources */,
+				7102088427B9563600195BC0 /* SecurityView.swift in Sources */,
+				7102087427B9546400195BC0 /* HomeView.swift in Sources */,
 				7102087227B94C4300195BC0 /* TabBarView.swift in Sources */,
 				7102085F27B9496F00195BC0 /* SwiftUI_ECommerceTemplateApp.swift in Sources */,
+				7102088527B9563600195BC0 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +449,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7102088927B9565300195BC0 /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stleamist/BetterSafariView.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7102088A27B9565300195BC0 /* BetterSafariView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7102088927B9565300195BC0 /* XCRemoteSwiftPackageReference "BetterSafariView" */;
+			productName = BetterSafariView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7102085327B9496F00195BC0 /* Project object */;
 }

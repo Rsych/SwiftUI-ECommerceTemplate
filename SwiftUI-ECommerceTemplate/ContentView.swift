@@ -10,15 +10,20 @@ import SwiftUI
 struct ContentView: View {
     // MARK: - Properties
     @EnvironmentObject private var appLockVM: AppLockViewModel
-    @SceneStorage("selectedTab") var currentTab: Int = 2
+    @EnvironmentObject var dataController: DataController
+    @SceneStorage("selectedTab") var currentTab: Int = 0
     // MARK: - Body
     var body: some View {
         ZStack() {
             if !appLockVM.isAppLockEnabled || appLockVM.isAppUnLocked {
                 TabView(selection: $currentTab, content: {
-                    Color.red
-                        .ignoresSafeArea()
+                    HomeView().tag(0)
+                    SearchView().tag(1)
+                    CartView().tag(2)
+                    MyPageView().tag(3)
+                    SettingsView().tag(4)
                 })
+                    .padding(.top)
                     .navigationViewStyle(StackNavigationViewStyle())
                     .onAppear(perform: {
                         // with tab bar shown, it leaves tiny marks on background
@@ -28,7 +33,7 @@ struct ContentView: View {
                         TabBarView(selectedTab: $currentTab)
                     })
                     .ignoresSafeArea(edges: .bottom)
-                    .navigationBarHidden(true)
+//                    .navigationBarHidden(true)
             } else {
                 LockedView()
                     .navigationBarHidden(true)

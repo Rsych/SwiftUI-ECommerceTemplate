@@ -24,6 +24,7 @@ struct TabBarView: View {
                                 .matchedGeometryEffect(id: "currentTab", in: currentTab)
                         }
                         Image(systemName: tabs[index].image)
+                            .font(.title2)
                             .frame(height: 20)
 //                        Text(tabs[index].label)
 //                            .font(.caption2)
@@ -37,6 +38,7 @@ struct TabBarView: View {
                         withAnimation {
                             selectedTab = index
                         }
+                        // Think if haptic is needed for eCommerce
                         if selectedTab == 2 {
                             UINotificationFeedbackGenerator().notificationOccurred(.error)
 
@@ -46,14 +48,11 @@ struct TabBarView: View {
                     }
                     .foregroundColor(selectedTab == index ? .orange : .secondary)
                 }  //: GeoReader
-//                .frame(height: 88, alignment: .bottom)
-                .frame(height: UIScreen.main.bounds.height/14, alignment: .center)
+                .frame(height: UIScreen.main.bounds.height/10, alignment: .center)
             }  //: Tabs Loop
         }  //: HStack
         .background(.thickMaterial)
-//        .cornerRadius(25, corners: [.topLeft, .topRight])
-        .cornerRadius(20)
-        .padding(.bottom, 40)
+        .cornerRadius(25, corners: [.topLeft, .topRight])
     }  //: body
 }
 

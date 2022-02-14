@@ -62,6 +62,8 @@ struct SettingsView: View {
             .listStyle(.plain)
             .padding(.bottom, 44)
             .navigationTitle("More")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
             
         }  //: NavView
         //        .sheet(isPresented: $showSafari) {

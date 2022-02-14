@@ -14,6 +14,7 @@ struct ContentView: View {
     @SceneStorage("selectedTab") var currentTab: Int = 0
     // MARK: - Body
     var body: some View {
+//        NavigationView {
         ZStack() {
             if !appLockVM.isAppLockEnabled || appLockVM.isAppUnLocked {
                 TabView(selection: $currentTab, content: {
@@ -24,7 +25,7 @@ struct ContentView: View {
                     SettingsView().tag(4)
                 })
                     .padding(.top)
-                    .navigationViewStyle(StackNavigationViewStyle())
+//                    .navigationViewStyle(StackNavigationViewStyle())
                     .onAppear(perform: {
                         // with tab bar shown, it leaves tiny marks on background
                         UITabBar.appearance().isHidden = true
@@ -33,7 +34,7 @@ struct ContentView: View {
                         TabBarView(selectedTab: $currentTab)
                     })
                     .ignoresSafeArea(edges: .bottom)
-//                    .navigationBarHidden(true)
+                    .navigationBarHidden(true)
             } else {
                 LockedView()
                     .navigationBarHidden(true)
@@ -46,6 +47,7 @@ struct ContentView: View {
                 appLockVM.appLockValidation()
             }
         }
+//    }
     }
 }
 

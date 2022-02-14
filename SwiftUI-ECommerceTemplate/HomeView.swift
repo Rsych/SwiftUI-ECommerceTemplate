@@ -9,12 +9,28 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("This is Home View")
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: true) {
+                HStack(alignment: .top, spacing: 10) {
+                    VStack(alignment: .center, spacing: 8) {
+                        ForEach(1..<100) { _ in
+                            Text("item")
+                        }
+                    }
+                } //: HStack
+            } //: ScrollVIew
+            .navigationTitle("Catalog")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
+        } //: NavView
+        
     }
 }
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
+        NavigationView {
         HomeView()
+        }
     }
 }
